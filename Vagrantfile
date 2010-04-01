@@ -7,7 +7,7 @@ Vagrant::Config.run do |config|
   # online.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "karmic"
+  config.vm.box = "base"
   config.vm.provisioner = :chef_solo
   config.chef.cookbooks_path = "cookbooks"
 end
